@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/q8uni">
+
+    <fragment
+        android:id="@+id/q8uni"
+        android:name="com.example.universitiesinkuwait.q8uni"
+        android:label="fragment_q8uni"
+        tools:layout="@layout/fragment_q8uni" />
+    <fragment
+        android:id="@+id/aumUni"
+        android:name="com.example.universitiesinkuwait.aumUni"
+        android:label="fragment_aum_uni"
+        tools:layout="@layout/fragment_aum_uni" />
+    <fragment
+        android:id="@+id/aukUni"
+        android:name="com.example.universitiesinkuwait.aukUni"
+        android:label="fragment_auk_uni"
+        tools:layout="@layout/fragment_auk_uni" />
+    <fragment
+        android:id="@+id/gustUni"
+        android:name="com.example.universitiesinkuwait.gustUni"
+        android:label="fragment_gust_uni"
+        tools:layout="@layout/fragment_gust_uni" />
+</navigation>

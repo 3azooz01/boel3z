@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/pu"
+    android:title="Public Universities">
+        <menu>
+            <item
+                android:id="@+id/ku"
+                android:title="Kuwait University"/>
+
+
+        </menu>
+</item>
+
+
+    <item
+        android:id="@+id/priv"
+        android:title="Private Universities">
+        <menu>
+            <item
+                android:id="@+id/gust"
+                android:title="Gulf University of Science and Technology"/>
+
+            <item
+                android:id="@+id/auk"
+                android:title="American University of Kuwait"/>
+
+            <item
+                android:id="@+id/aum"
+                android:title="American University of the Middle East"/>
+
+
+        </menu>
+    </item>
+
+
+
+</menu>
